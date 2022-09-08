@@ -1,6 +1,7 @@
 {
   "name": "7tv-discord-sync",
   "version": "0.1.0",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "run-p dev:*",
     "dev:server": "ts-node-dev --project ./src/server/tsconfig.json src/server/index.ts",
