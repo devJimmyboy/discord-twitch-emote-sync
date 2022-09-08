@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "outDir": "../../dist",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "Node",
+    "incremental": true,
+    "target": "ESNext",
+    "module": "CommonJS",
+    "lib": [
+      "ESNext",
+      "ESNext.AsyncIterable",
+      "DOM"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "types": [
+      "node"
+    ],
+    "skipDefaultLibCheck": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "./**/*.ts",
+  ],
+  "ts-node": {
+    "files": true
+  }
+}
