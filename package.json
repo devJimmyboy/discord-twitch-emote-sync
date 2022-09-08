@@ -6,9 +6,7 @@
     "dev": "run-p dev:*",
     "dev:server": "ts-node-dev --project ./src/server/tsconfig.json src/server/index.ts",
     "dev:client": "vite",
-    "build": "run-s build:*",
-    "build:server": "tsc --project ./src/server/tsconfig.json",
-    "build:client": "vite build",
+    "build": "tsc --project ./src/server/tsconfig.json && vite build",
     "start": "node dist/index.js"
   },
   "browserslist": {
